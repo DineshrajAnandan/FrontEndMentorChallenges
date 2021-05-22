@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/stats-preview-card-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/stats-preview-card-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
