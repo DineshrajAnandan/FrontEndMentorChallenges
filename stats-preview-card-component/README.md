@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/stats-preview-card-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/stats-preview-card-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/stats-preview-card-component/index.html)
 
 ## My process
 
