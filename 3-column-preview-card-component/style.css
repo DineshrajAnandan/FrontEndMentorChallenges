@@ -13,7 +13,6 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -21,6 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: stretch;
+  width: 90%;
 }
 
 .container > .item:first-child {
@@ -45,11 +45,11 @@ body {
 }
 
 .item {
-  width: 150px;
+  width: 30%;
   font-family: 'Lexend Deca', sans-serif;
   color: var(--app-white);
-  font-size: small;
-  padding: 3em;
+  font-size: medium;
+  padding: 5em;
 }
 
 .card-title {
@@ -57,12 +57,19 @@ body {
   font-family: 'Big Shoulders Display', cursive;
   color: var(--app-light-gray);
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: xxx-large;
   text-transform: uppercase;
 }
 
 .card-desc {
   padding: 1em 0 3em;
+  line-height: 2;
+}
+
+.learn-more-button:hover {
+  background: transparent;
+  color: var(--app-light-gray);
+  cursor: pointer;
 }
 
 .orange {
@@ -73,22 +80,12 @@ body {
   color: var(--app-orange);
 }
 
-.learn-more-button.orange-text:hover {
-  color: var(--app-light-gray);
-  background: var(--app-orange);
-}
-
 .cyan {
   background: var(--app-cyan);
 }
 
 .cyan-text {
   color: var(--app-cyan);
-}
-
-.learn-more-button.cyan-text:hover {
-  color: var(--app-light-gray);
-  background: var(--app-cyan);
 }
 
 .dark-cyan {
@@ -99,12 +96,7 @@ body {
   color: var(--app-dark-cyan);
 }
 
-.learn-more-button.dark-cyan-text:hover {
-  color: var(--app-light-gray);
-  background: var(--app-dark-cyan);
-}
-
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 1024px) {
   body {
     justify-content: flex-start;
   }
@@ -114,7 +106,12 @@ body {
   }
 
   .item {
-    width: 220px;
+    width: auto;
+  }
+  
+  .learn-more-button {
+    padding: 20px 30px;
+    border-radius: 40px;
   }
 
   .container > .item:first-child {
@@ -130,4 +127,16 @@ body {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
   }
+}
+
+@media screen and (max-width: 375px) {
+  .learn-more-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+  .item {
+    padding: 2.5em;
+  }
+  
 }
