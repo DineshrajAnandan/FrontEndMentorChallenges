@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+  --app-orange: hsl(31, 77%, 52%);
+  --app-cyan: hsl(184, 100%, 22%);
+  --app-dark-cyan: hsl(179, 100%, 13%);
+  --app-light-gray: hsl(0, 0%, 95%);
+  --app-white: hsla(0, 0%, 100%, 0.75);
+}
+
+body {
+  background: var(--app-light-gray);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.container > .item:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container > .item:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.learn-more-button {
+  display: block;
+  font-family: 'Lexend Deca', sans-serif;
+  background: var(--app-light-gray);
+  padding: 10px 20px;
+  border-top: 1em;
+  border-radius: 20px;
+  font-weight: bold;
+  border: 2px solid var(--app-light-gray);
+}
+
+.item {
+  width: 150px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--app-white);
+  font-size: small;
+  padding: 3em;
+}
+
+.card-title {
+  padding-top: 1em;
+  font-family: 'Big Shoulders Display', cursive;
+  color: var(--app-light-gray);
+  font-weight: bolder;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+
+.card-desc {
+  padding: 1em 0 3em;
+}
+
+.orange {
+  background: var(--app-orange);
+}
+
+.orange-text {
+  color: var(--app-orange);
+}
+
+.learn-more-button.orange-text:hover {
+  color: var(--app-light-gray);
+  background: var(--app-orange);
+}
+
+.cyan {
+  background: var(--app-cyan);
+}
+
+.cyan-text {
+  color: var(--app-cyan);
+}
+
+.learn-more-button.cyan-text:hover {
+  color: var(--app-light-gray);
+  background: var(--app-cyan);
+}
+
+.dark-cyan {
+  background: var(--app-dark-cyan);
+}
+
+.dark-cyan-text {
+  color: var(--app-dark-cyan);
+}
+
+.learn-more-button.dark-cyan-text:hover {
+  color: var(--app-light-gray);
+  background: var(--app-dark-cyan);
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    justify-content: flex-start;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 220px;
+  }
+
+  .container > .item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .container > .item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
