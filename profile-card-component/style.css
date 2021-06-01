@@ -42,10 +42,12 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-size: larger;
+  color: hsl(227, 10%, 46%);
 }
 
 .stats-title {
   font-size: smaller;
+  color:hsl(0, 0%, 59%);
 }
 
 .card-pattern {
@@ -72,11 +74,17 @@ body {
 
 .name {
   font-weight: 700;
+  color: hsl(227, 10%, 46%);
+}
+
+.age {
+  color:hsl(0, 0%, 59%);
 }
 
 .place {
   padding-bottom: 1em;
   font-weight: 400;
+  color:hsl(0, 0%, 59%);
 }
 
 .avatar {
