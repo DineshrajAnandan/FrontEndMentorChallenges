@@ -42,7 +42,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   font-size: larger;
-  color: hsl(227, 10%, 46%);
+  color: hsl(229, 23%, 23%);
 }
 
 .stats-title {
@@ -74,7 +74,7 @@ body {
 
 .name {
   font-weight: 700;
-  color: hsl(227, 10%, 46%);
+  color: hsl(229, 23%, 23%);
 }
 
 .age {
