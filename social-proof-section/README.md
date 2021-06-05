@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/social-proof-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/social-proof-section)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/social-proof-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/social-proof-section/index.html)
 
 ## My process
 
