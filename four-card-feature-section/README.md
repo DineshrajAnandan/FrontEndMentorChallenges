@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/four-card-feature-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/four-card-feature-section)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/four-card-feature-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/four-card-feature-section/index.html)
 
 ## My process
 
