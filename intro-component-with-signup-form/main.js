@@ -39,7 +39,7 @@ function validateForm() {
 
 function displayError(elem, isError) {
   let displayType = isError ? 'block' : 'none';
-  let border = isError ? '2px solid hsl(0, 100%, 74%)' : '1px solid gray';
+  let border = isError ? '2px solid hsl(0, 100%, 74%)' : '2px solid hsl(246, 25%, 77%, 0.3)';
 
   document.querySelector(`.error-text.${elem}`).style.display = displayType;
   document.querySelector(`#${elem}+.err-icon`).style.display = displayType;

@@ -84,7 +84,7 @@ body {
   width: 100%;
   padding: 1em 1.5em;
   border-radius: 5px;
-  border: 1px solid gray;
+  border: 2px solid hsl(246, 25%, 77%, 0.3);
   font-weight: 700;
   color: var(--app-dark-blue);
 }
