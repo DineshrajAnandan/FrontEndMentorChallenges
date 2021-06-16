@@ -19,10 +19,17 @@ body {
   background-size: cover;
   background-color: var(--app-red);
   font-family: 'Poppins', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
-  margin: 6em 8em 0;
+  margin-top: 5em;
+  width:80%;
+  max-width: 1200px;
   display: flex;
 }
 
@@ -157,19 +164,12 @@ body {
   color: var(--app-gray-blue);
 }
 
-@media screen and (max-width: 930px) {
-  .container {
-    margin: 6em 5em 0;
-  }
-}
-
 @media screen and (max-width: 768px) {
   body {
     background-image: url(./images/bg-intro-mobile.png);
   }
   .container {
     flex-direction: column;
-    margin-top: 5em;
   }
 
   .left-container {
@@ -185,14 +185,12 @@ body {
 
 @media screen and (max-width: 425px) {
   .container {
-    margin-left: 2em;
-    margin-right: 2em;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 375px) {
   .container {
-    margin-left: 1.2em;
-    margin-right: 1.2em;
+    width: 95%;
   }
 }
