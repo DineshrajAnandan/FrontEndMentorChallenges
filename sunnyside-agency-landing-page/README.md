@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/sunnyside-agency-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/sunnyside-agency-landing-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/sunnyside-agency-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/sunnyside-agency-landing-page/index.html)
 
 ## My process
 
