@@ -5,7 +5,27 @@ body {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+.header-title{
+  text-align: center;
+  background-color: #80808033;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+
+.my-name {
+  text-align: center; 
+  color: gray;
+}
+
+.github-link {
+  text-align: center;
+  margin: 1em 0;
+}
+
 .portfolio-container {
   display: flex;
   width: 100%;
