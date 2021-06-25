@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/crowdfunding-product-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/crowdfunding-product-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/crowdfunding-product-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/crowdfunding-product-page/index.html)
 
 ## My process
 
