@@ -11,12 +11,12 @@ body {
   padding: 0;
 }
 
-.header-title{
+.header-title {
   background-image: linear-gradient(to right, #5964e0, #6670e3);
   text-align: right;
   padding: 2em 2em;
   border-bottom-left-radius: 5em;
-  color:aliceblue;
+  color: aliceblue;
   font-weight: 600;
   font-size: 1.5rem;
   display: flex;
@@ -36,15 +36,15 @@ body {
 }
 
 .item-level.level1 {
-  background-color: hsl(182,82%,43%);
+  background-color: hsl(182, 82%, 43%);
 }
 
 .item-level.level2 {
-background-color:hsl(78,65%,55%);
+  background-color: hsl(78, 65%, 55%);
 }
 
 .item-level.level3 {
-background-color:hsl(45,97%,48%);
+  background-color: hsl(45, 97%, 48%);
 }
 
 .portfolio-container {
@@ -76,6 +76,7 @@ background-color:hsl(45,97%,48%);
   gap: 0.6em;
   justify-content: center;
   align-content: center;
+  cursor: pointer;
 }
 
 .portfolio-item > a {
@@ -111,7 +112,7 @@ background-color:hsl(45,97%,48%);
   cursor: pointer;
 }
 
-.view-challenge-button > a{
+.view-challenge-button > a {
   color: #5964e0;
   text-decoration: none;
 }
@@ -136,4 +137,18 @@ background-color:hsl(45,97%,48%);
   color: #fff;
   background-color: #5964e0ba;
   border: 0;
+}
+
+.github-me {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.github-me > a {
+  text-decoration: none;
+  color: #5964e0;
+}
+
+.github-me > a > i {
+  color: black;
 }
