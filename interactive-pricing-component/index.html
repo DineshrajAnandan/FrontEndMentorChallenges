@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/slider.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="./js/main.js"></script>
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="header-title">Simple, traffic-based pricing</div>
+    <div class="header-desc">Sign-up for our 30-day trial. No credit card required.</div>
+  </div>
+
+  <div class="container">
+    <div class="container-top">
+      <div class="pricing-view">
+        <div class="page-view-count"> <span>100K</span> Pageviews</div>
+        <div class="price-slider">
+          <input type="range" min="1" max="5" step="1" aria-label="slider" value="3" oninput="calculatePrice(this.value)">
+          <!-- <div class="slider-bar"></div> -->
+          <!-- <div class="slider-bar">
+            <div class="slider-circle">
+              <img src="./images/icon-slider.svg" alt="icon-slider">
+            </div>
+          </div> -->
+        </div>
+        <div class="price-amount"> <span> $ <span> 16.00 </span> </span> / month</div>
+
+      </div>
+      <div class="billing-toggle">
+        <span class="monthly-text">Monthly Billing</span>
+        <div class="toggle-item">
+          <div class="toggle-item-circle"></div>
+        </div>
+        <span class="yearly-text">Yearly Billing</span>
+        <span class="discount-rate desktop">25% discount</span>
+        <span class="discount-rate mobile">-25%</span>
+      </div>
+    </div>
+    <div class="container-bottom">
+      <div class="container-bottom-left">
+        <div class="feats-list"> <img src="./images/icon-check.svg" alt="icon-check"> Unlimited websites</div>
+        <div class="feats-list"> <img src="./images/icon-check.svg" alt="icon-check"> 100% data ownership</div>
+        <div class="feats-list"> <img src="./images/icon-check.svg" alt="icon-check"> Email reports</div>
+      </div>
+      <div class="container-bottom-right">
+        <div class="start-button">Start my trial</div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
