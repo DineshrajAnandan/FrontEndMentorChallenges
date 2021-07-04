@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/coding-bootcamp-testimonials-slider](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/coding-bootcamp-testimonials-slider)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/coding-bootcamp-testimonials-slider/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/coding-bootcamp-testimonials-slider/index.html)
 
 ## My process
 
