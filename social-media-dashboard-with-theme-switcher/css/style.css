@@ -282,11 +282,11 @@ html {
 
 @media screen and (max-width: 910px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 530px) {
   .header {
     flex-direction: column;
   }
@@ -307,5 +307,11 @@ html {
 
   .mode-switch-wrap {
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
