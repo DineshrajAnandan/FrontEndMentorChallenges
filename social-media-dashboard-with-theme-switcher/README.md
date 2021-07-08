@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/social-media-dashboard-with-theme-switcher](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/social-media-dashboard-with-theme-switcher)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/social-media-dashboard-with-theme-switcher/](https://dineshrajanandan.github.io/FrontEndMentorChallenges/social-media-dashboard-with-theme-switcher/)
 
 ## My process
 
