@@ -10,16 +10,6 @@
     background-color 500ms ease-in-out 100ms;
 }
 
-body {
-  --body-bg: var(--white);
-  font-family: "Inter", sans-serif;
-  background-color: var(--body-bg);
-}
-
-html {
-  font-size: 14px;
-}
-
 :root {
   /* Primary */
   --lime-green: hsl(163, 72%, 41%);
@@ -52,6 +42,37 @@ html {
   --very-dark-blue: hsl(230, 17%, 14%); /*(Text)*/
 }
 
+body {
+  --body-bg: var(--white);
+  font-family: "Inter", sans-serif;
+  background-color: var(--body-bg);
+
+  --bck-div-bg: var(--very-pale-blue);
+  --switch-text-color: var(--dark-grayish-blue);
+  --switch-outer-bg: var(--toggle-light);
+  --switch-outer-bg-hvr: var(--toggle-dark);
+  --switch-inner-bg: var(--white);
+  --switch-inner-dark-bg: var(--very-dark-blue);
+  --head-title-color: var(--very-dark-blue);
+  --sub-title-color: var(--dark-grayish-blue);
+  --head-desc-color: var(--dark-grayish-blue);
+  --card-bg: var(--light-grayish-blue);
+  --card-bg-hvr: #dfe1e7;
+  --dash-sec-one-color: var(--dark-grayish-blue);
+  --dash-sec-two-color: var(--very-dark-blue);
+  --dash-sec-three-color: var(--dark-grayish-blue);
+  --dash-sec-four-color: var(--lime-green);
+  --dash-sec-four-dwn-color: var(--bright-red);
+  --overv-sec-one-color: var(--dark-grayish-blue);
+  --overv-sec-two-color: var(--very-dark-blue);
+  --overv-sec-three-color: var(--lime-green);
+  --overv-sec-three-dwn-color: var(--bright-red);
+}
+
+html {
+  font-size: 14px;
+}
+
 .container {
   width: 90%;
   max-width: 1100px;
@@ -60,7 +81,6 @@ html {
 }
 
 .bck-div {
-  --bck-div-bg: var(--very-pale-blue);
   position: absolute;
   top: 0;
   left: 0;
@@ -80,7 +100,6 @@ html {
 }
 
 .mode-switch-wrap {
-  --switch-text-color: var(--dark-grayish-blue);
   color: var(--switch-text-color);
   display: flex;
   justify-content: center;
@@ -89,7 +108,6 @@ html {
 }
 
 .switch-outer {
-  --switch-outer-bg: var(--toggle-light);
   width: 3em;
   height: 1.5em;
   border-radius: 5em;
@@ -100,7 +118,6 @@ html {
 }
 
 .switch-inner {
-  --switch-inner-bg: var(--white);
   width: 1.2em;
   height: 1.2em;
   border-radius: 5em;
@@ -112,20 +129,17 @@ html {
 }
 
 .switch-inner.dark {
-  --switch-inner-bg: var(--very-dark-blue);
   left: 0.2em;
   right: unset;
-  background-color: var(--switch-inner-bg);
+  background-color: var(--switch-inner-dark-bg);
 }
 
 .head-title-wrap > .title {
-  --head-title-color: var(--very-dark-blue);
   font-size: 2rem;
   color: var(--head-title-color);
 }
 
 .sub-title {
-  --sub-title-color: var(--dark-grayish-blue);
   font-size: 1.6rem;
   color: var(--sub-title-color);
   font-weight: 700;
@@ -133,7 +147,6 @@ html {
 }
 
 .head-title-wrap > .desc {
-  --head-desc-color: var(--dark-grayish-blue);
   font-size: 1rem;
   color: var(--head-desc-color);
 }
@@ -154,8 +167,6 @@ html {
 }
 
 .item {
-  --card-bg: var(--light-grayish-blue);
-  --card-bg-hvr: #dfe1e7;
   background-color: var(--card-bg);
   border-radius: 0.5em;
   padding: 1.6em;
@@ -203,13 +214,11 @@ html {
 }
 
 .dash-sec.one > span {
-  --dash-sec-one-color: var(--dark-grayish-blue);
   font-weight: 700;
   color: var(--dash-sec-one-color);
 }
 
 .dash-sec.two {
-  --dash-sec-two-color: var(--very-dark-blue);
   font-weight: 700;
   color: var(--dash-sec-two-color);
   font-size: 3rem;
@@ -217,7 +226,6 @@ html {
 }
 
 .dash-sec.three {
-  --dash-sec-three-color: var(--dark-grayish-blue);
   font-weight: 400;
   color: var(--dash-sec-three-color);
   font-size: 1rem;
@@ -226,19 +234,16 @@ html {
 }
 
 .dash-sec.four {
-  --dash-sec-four-color: var(--lime-green);
   font-weight: 700;
   color: var(--dash-sec-four-color);
   font-size: 1rem;
   margin-top: 1.5rem;
 }
 .dash-sec.four.down {
-  --dash-sec-four-dwn-color: var(--bright-red);
   color: var(--dash-sec-four-dwn-color);
 }
 
 .overv-sec.one {
-  --overv-sec-one-color: var(--dark-grayish-blue);
   justify-self: start;
   font-weight: 700;
   color: var(--overv-sec-one-color);
@@ -247,7 +252,6 @@ html {
   justify-self: end;
 }
 .overv-sec.two {
-  --overv-sec-two-color: var(--very-dark-blue);
   justify-self: start;
   align-self: end;
   font-weight: 700;
@@ -255,20 +259,17 @@ html {
   font-size: 2rem;
 }
 .overv-sec.three {
-  --overv-sec-three-color: var(--lime-green);
   justify-self: end;
   align-self: end;
   font-weight: 700;
   color: var(--overv-sec-three-color);
 }
 .overv-sec.three.down {
-  --overv-sec-three-dwn-color: var(--bright-red);
   color: var(--overv-sec-three-dwn-color);
 }
 
 @media (hover: hover) {
   .switch-outer:hover {
-    --switch-outer-bg-hvr: var(--toggle-dark);
     background: var(--switch-outer-bg-hvr);
     cursor: pointer;
   }
