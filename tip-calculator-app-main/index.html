@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/main.js"></script>
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <img src="./images/logo.svg" alt="logo" class="logo" />
+
+    <div class="container">
+      <div class="section input">
+        <div class="sub-sec">
+          <div class="label-title">Bill</div>
+          <div class="input-box bill">
+            <input type="number" placeholder="0" />
+            <img src="./images/icon-dollar.svg" alt="icon-dollar" />
+          </div>
+        </div>
+        <div class="sub-sec">
+          <div class="label-title">Select Tip %</div>
+          <div class="percent-grid">
+            <div class="percent-item-wrap">
+              <input
+                type="radio"
+                name="tip-percent-radio"
+                value="5"
+                id="radio5"
+                class="percent-radio"
+              />
+              <label class="percent-item" for="radio5">5%</label>
+            </div>
+            <div class="percent-item-wrap">
+              <input
+                type="radio"
+                name="tip-percent-radio"
+                value="10"
+                id="radio10"
+                class="percent-radio"
+              />
+              <label class="percent-item" for="radio10">10%</label>
+            </div>
+            <div class="percent-item-wrap">
+              <input
+                type="radio"
+                name="tip-percent-radio"
+                value="15"
+                id="radio15"
+                class="percent-radio"
+              />
+              <label class="percent-item" for="radio15">15%</label>
+            </div>
+            <div class="percent-item-wrap">
+              <input
+                type="radio"
+                name="tip-percent-radio"
+                value="25"
+                id="radio25"
+                class="percent-radio"
+              />
+              <label class="percent-item" for="radio25">25%</label>
+            </div>
+            <div class="percent-item-wrap">
+              <input
+                type="radio"
+                name="tip-percent-radio"
+                value="50"
+                id="radio50"
+                class="percent-radio"
+              />
+              <label class="percent-item" for="radio50">50%</label>
+            </div>
+            <div class="percent-item-wrap">
+              <input
+                type="radio"
+                name="tip-percent-radio"
+                value="custom"
+                id="radioCustom"
+                class="percent-radio"
+              />
+              <label class="percent-item custom" for="radioCustom">
+                <span>Custom</span>
+                <input type="number" placeholder="0" class="hidden" />
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="sub-sec">
+          <div class="label-title no-people">
+            <span>Number of People</span>
+            <span class="error hidden">Can't be zero</span>
+          </div>
+          <div class="input-box people">
+            <input type="number" placeholder="0" />
+            <img src="./images/icon-person.svg" alt="icon-person" />
+          </div>
+        </div>
+      </div>
+      <div class="section result">
+        <div class="sub-sec">
+          <div class="result-label-wrap">
+            <span class="big">Tip Amount</span>
+            <span class="small">/ person</span>
+          </div>
+          <div class="result-amount tip">$<span>0.00</span></div>
+        </div>
+        <div class="sub-sec">
+          <div class="result-label-wrap">
+            <span class="big">Total</span>
+            <span class="small">/ person</span>
+          </div>
+          <div class="result-amount total">$<span>0.00</span></div>
+        </div>
+        <div class="sub-sec btn">Reset</div>
+      </div>
+    </div>
+  </body>
+</html>
