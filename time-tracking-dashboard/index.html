@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-section brd">
+        <div class="profile brd">
+          <img src="./images/image-jeremy.png" alt="image-jeremy">
+          <div class="id-wrap">
+            <span class="sub">Report for</span>
+            <span class="name">Jeremy Robson</span>
+          </div>
+        </div>
+        <div class="nav-menu">
+          <div class="menu-item" id="daily" onclick="choosePeriod('daily')">Daily</div>
+          <div class="menu-item active" id="weekly" onclick="choosePeriod('weekly')">Weekly</div>
+          <div class="menu-item" id="monthly" onclick="choosePeriod('monthly')">Monthly</div>
+        </div>
+      </div>
+
+      <div class="dashboard-item brd bg-orange" id="Work">
+        <img src="./images/icon-work.svg" alt="icon-work" class="item-img">
+        <div class="sub-wrap brd">
+          <div class="title">
+            <span>Work</span>
+            <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis">
+          </div>
+          <div class="value">
+            <div class="curr-value"></div>
+            <div class="prev-value"></div>
+          </div>
+        </div>
+      </div>
+      <div class="dashboard-item brd bg-soft-blue" id="Play">
+        <img src="./images/icon-play.svg" alt="icon-work" class="item-img">
+        <div class="sub-wrap brd">
+          <div class="title">
+            <span>Play</span>
+            <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis">
+          </div>
+          <div class="value">
+            <div class="curr-value"></div>
+            <div class="prev-value"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard-item brd bg-light-red" id="Study">        
+        <img src="./images/icon-study.svg" alt="icon-work" class="item-img">
+        <div class="sub-wrap brd">
+          <div class="title">
+            <span>Study</span>
+            <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis">
+          </div>
+          <div class="value">
+            <div class="curr-value"></div>
+            <div class="prev-value"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard-item brd bg-lime-green" id="Exercise">
+        <img src="./images/icon-exercise.svg" alt="icon-work" class="item-img">
+        <div class="sub-wrap brd">
+          <div class="title">
+            <span>Exercise</span>
+            <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis">
+          </div>
+          <div class="value">
+            <div class="curr-value"></div>
+            <div class="prev-value"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="empty-grid-item"></div>
+
+      <div class="dashboard-item brd bg-violet" id="Social">
+        <img src="./images/icon-social.svg" alt="icon-work" class="item-img">
+        <div class="sub-wrap brd">
+          <div class="title">
+            <span>Social</span>
+            <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis">
+          </div>
+          <div class="value">
+            <div class="curr-value"></div>
+            <div class="prev-value"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dashboard-item brd bg-soft-orange" id="Self Care">
+        <img src="./images/icon-self-care.svg" alt="icon-work" class="item-img">
+        <div class="sub-wrap brd">
+          <div class="title">
+            <span>Self Care</span>
+            <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis">
+          </div>
+          <div class="value">
+            <div class="curr-value"></div>
+            <div class="prev-value"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
