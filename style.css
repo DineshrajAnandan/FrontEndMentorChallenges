@@ -35,6 +35,10 @@ body {
   border-radius: 2em;
 }
 
+.item-level.selection {
+  margin: auto;
+}
+
 .item-level.newbie {
   background-color: hsl(182, 82%, 43%);
 }
@@ -68,7 +72,7 @@ body {
 }
 
 .filter-item {
-  padding: 0.8em;
+  padding: 0.5em 0.8em;
   border: 1px solid gray;
   border-radius: 5em;
   color: gray;
