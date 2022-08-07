@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --app-cyan: hsl(179, 62%, 43%);
+  --app-yellow: hsl(71, 73%, 54%);
+  --app-gray: hsl(204, 43%, 93%);
+  --app-blue: hsl(218, 22%, 67%);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Karla', sans-serif;
+
+  background-color: var(--app-gray);
+}
+.container {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  background-color: white;
+  box-shadow: 0 0 20px gray;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+.top {
+  padding: 2em;
+}
+
+.top > h1 {
+  font-weight: 700;
+}
+
+.heading-one {
+  margin: 0;
+  color: var(--app-cyan);
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+.heading-two {
+  margin: 0;
+  color: var(--app-yellow);
+  margin-bottom: 0.7em;
+  font-size: 1.3rem;
+}
+.description {
+  color: var(--app-blue);
+  margin: 0;
+}
+
+.bottom {
+  display: flex;
+}
+
+.bottom > * {
+  flex: 1 1 50%;
+}
+
+.left {
+  padding: 2em;
+  background-color: var(--app-cyan);
+  color: var(--app-gray);
+}
+.right {
+  padding: 2em;
+  background-color: hsla(179, 62%, 43%, 0.8);
+  color: var(--app-gray);
+}
+
+.right > h2,
+.left > h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.right > span {
+  display: block;
+  line-height: 1.5;
+  font-size: 0.8rem;
+}
+
+.right > span:first-of-type {
+  margin-top: 1em;
+}
+
+.left > span {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0.5em 0 0.3em;
+  display: block;
+}
+
+.left > span > .per-cost {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.left > p {
+  margin: 0;
+  margin-bottom: 1.5em;
+}
+
+.sign-up-btn {
+  background-color: var(--app-yellow);
+  color: var(--app-gray);
+  padding: 1em 2em;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px #00000038;
+  cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    opacity: 0.9;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bottom {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .heading-one {
+        font-size: 1.4rem;
+    }
+
+    .heading-two {
+        font-size: 1.2rem;
+    }
+
+    .description {
+        line-height: 1.5;
+    }
+}

@@ -35,15 +35,15 @@ body {
   border-radius: 2em;
 }
 
-.item-level.level1 {
+.item-level.newbie {
   background-color: hsl(182, 82%, 43%);
 }
 
-.item-level.level2 {
+.item-level.junior {
   background-color: hsl(78, 65%, 55%);
 }
 
-.item-level.level3 {
+.item-level.intermediate {
   background-color: hsl(45, 97%, 48%);
 }
 

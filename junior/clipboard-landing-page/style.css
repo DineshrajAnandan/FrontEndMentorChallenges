@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+html {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    /* Neutral */
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+div.section.landing-header {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 7em 0;
+    text-align: center;
+}
+
+.heading {
+    margin-top: 1em;
+    font-size: 2.5rem;
+    color: var(--dark-grayish-blue);
+    font-weight: bold;
+    text-align: center;
+}
+.second-heading {
+    font-size: 1.8rem;
+    color: var(--dark-grayish-blue);
+    font-weight: bold;
+    text-align: center;
+}
+.sub-heading {
+    padding-top: 1em;
+    font-size: 1rem;
+    color: var(--grayish-blue);
+    line-height: 1.5em;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.section.landing-header > .download-actions {
+    padding-top: 2.5em;
+}
+
+.download-actions {
+    color: white;
+    font-weight: bold;
+}
+
+.download-actions > div {
+    padding: 0.7em 1.5em;
+    display: inline-block;
+    border-radius: 10em;
+}
+
+.download-ios {
+    background-color: var(--strong-cyan);    
+    border-bottom: 3px solid hsl(171, 85%, 19%);
+}
+.download-mac {
+    margin-left: 1em;
+    background-color: var(--light-blue);
+    border-bottom: 3px solid hsl(233, 62%, 38%);
+}
+
+.download-ios:hover, .download-mac:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+div.features-wrap {
+    display: flex;
+    margin-top: 4em;
+}
+div.features-wrap > div {
+    width: 50%;
+}
+
+div.features-wrap > div.left{
+    width: 50vw;
+    position: relative;
+    /* height: 445px; */
+}
+
+div.features-wrap > div.left > img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+div.features-wrap > div.right{
+    padding: 3.5em 5em;
+}
+
+div.feat-item {
+    line-height: 1.4em;
+    max-width: 350px;
+}
+
+div.feat-item:not(:last-child) {
+    margin-bottom: 3em;
+}
+
+div.feat-item > div.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:var(--dark-grayish-blue);
+    padding-bottom: 0.5em;
+}
+
+div.feat-item > div.description {
+    font-size: 0.9rem;
+    color:var(--grayish-blue);
+}
+
+div.section.clients {
+    padding: 5em;
+    display: flex;
+    gap:1em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.image-props {
+    text-align: center;
+    margin-top: 4em;
+}
+
+div.section.props {
+    padding: 8em 0 3em;
+}
+
+div.workflow-items {
+    display: flex;
+    justify-content: center;
+    gap:2em;
+    padding: 4em 0;
+    /* align-items: center; */
+}
+
+div.workflow-item {
+    text-align: center;
+    max-width: 350px;
+}
+
+div.workflow-item > div.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:var(--dark-grayish-blue);
+    padding-bottom: 0.5em;
+    padding-top: 2em;
+}
+
+div.workflow-item > div.description {
+    font-size: 0.9rem;
+    color:var(--grayish-blue);
+    line-height: 1.5em;
+}
+
+div.section.links {
+    text-align: center;
+    padding: 4em 0 6em;
+}
+
+div.section.links > div.download-actions {
+    padding-top: 2.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    background-color: hsla(201, 11%, 66%, 0.1);
+    padding: 2em 0;
+}
+
+footer > .footer-links {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 5em;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+footer > .footer-links > .footer-link{
+    width: 10em;
+}
+
+.footer-logo > img {
+    width: 3em;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-socials > img:hover {
+    filter: invert(67%) sepia(16%) saturate(1847%) hue-rotate(122deg) brightness(89%) contrast(84%);
+    cursor: pointer;
+}
+
+.footer-link:hover {
+    color: var(--strong-cyan);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 950px) {
+    div.section.clients {
+        flex-wrap: wrap;
+        gap:4em;
+    }
+    div.section {
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+    }
+
+    div.workflow-items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.features-wrap {
+        flex-direction: column;
+        text-align: center;
+    }
+    div.features-wrap > div {
+        width: 100%;
+    }
+    
+    div.features-wrap > div.left{
+        width: 90%;
+        position: relative;
+        margin: auto;
+        /* height: 445px; */
+    }
+    
+    div.features-wrap > div.left > img{
+        position: relative;
+        left:0;
+        height: auto;
+        width: 100%;
+    }
+    
+    div.features-wrap > div.right {
+        padding: 2.5em 3em;
+    }
+    div.image-props > img {
+        width: 100%;
+    }
+
+    div.feat-item {
+        margin: auto;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    footer > .footer-links {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-links > .footer-link {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+    div.section.landing-header {
+        background-image: url(./images/bg-header-mobile.png);
+    }
+
+    div.section {
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+
+    .download-actions > div {
+        display: block;
+    }
+
+    .download-mac {
+        margin-left: auto;
+        margin-top: 1.5em;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+    .second-heading {
+        font-size: 1.5rem;
+    }
+
+    div.section.clients {
+        flex-direction: column;
+    }
+}

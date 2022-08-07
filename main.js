@@ -6,8 +6,8 @@ document.onreadystatechange = () => {
 
 function registerEvents() {
     document.querySelector('.filter-item.all').addEventListener('click',filterAllItems);
-    document.querySelector('.filter-item.level1').addEventListener('click',filterLevel1Items);
-    document.querySelector('.filter-item.level2').addEventListener('click',filterLevel2Items);
+    document.querySelector('.filter-item.newbie').addEventListener('click',filterLevel1Items);
+    document.querySelector('.filter-item.junior').addEventListener('click',filterLevel2Items);
 }
 
 function filterAllItems(el) {
@@ -21,7 +21,7 @@ function filterAllItems(el) {
 function filterLevel1Items(el) {
     clearAllFilters();
     el.currentTarget.classList.add('filter-selected');
-    document.querySelectorAll('.portfolio-item.level1').forEach ( el => {
+    document.querySelectorAll('.portfolio-item.newbie').forEach ( el => {
         el.style.display = 'block';
     })
 }
@@ -29,7 +29,7 @@ function filterLevel1Items(el) {
 function filterLevel2Items(el) {
     clearAllFilters();
     el.currentTarget.classList.add('filter-selected');
-    document.querySelectorAll('.portfolio-item.level2').forEach ( el => {
+    document.querySelectorAll('.portfolio-item.junior').forEach ( el => {
         el.style.display = 'block';
     })
 }

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --app-red: hsl(0, 78%, 62%);
+  --app-cyan: hsl(180, 62%, 55%);
+  --app-orange: hsl(34, 97%, 64%);
+  --app-blue: hsl(212, 86%, 64%);
+  --app-dark-blue: hsl(234, 12%, 34%);
+  --app-gray-blue: hsl(229, 6%, 66%);
+  --app-gray: hsl(0, 0%, 98%);
+}
+
+.red-card {
+  border-top: 3px solid var(--app-red);
+}
+
+.cyan-card {
+  border-top: 3px solid var(--app-cyan);
+}
+
+.orange-card {
+  border-top: 3px solid var(--app-orange);
+}
+
+.blue-card {
+  border-top: 3px solid var(--app-blue);
+}
+
+.header {
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+  width: 40%;
+}
+
+.header > * {
+  display: block;
+}
+
+.header-light {
+  font-weight: 200;
+  font-size: xx-large;
+  color: var(--app-dark-blue);
+}
+
+.header-dark {
+  font-weight: 600;
+  font-size: xx-large;
+  color: var(--app-dark-blue);
+}
+
+.header-desc {
+  margin-top: 1em;
+  font-weight: 400;
+  font-size: small;
+  color: var(--app-gray-blue);
+}
+
+.cards-container {
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-deck {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 12em;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--app-gray-blue);
+  color: var(--app-dark-blue);
+}
+
+.card-img {
+  width: 3em;
+  margin-top: 1.5em;
+  float: right;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: large;
+}
+
+.card-desc {
+  font-weight: 400;
+  font-size: 0.75em;
+  color: var(--app-gray-blue);
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    width: 60%;
+  }
+
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 75vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    width: 80%;
+  }
+
+  .header-light {
+    font-size: x-large;
+  }
+
+  .header-dark {
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+      width: 80%;
+    }
+  
+    .header-light {
+      font-size: larger;
+    }
+  
+    .header-dark {
+      font-size: larger;
+    }
+  }

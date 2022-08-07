@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,600;1,600&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+html {
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    margin: 0;
+}
+
+:root {
+    /* Primary */
+    --pink: hsl(322, 100%, 66%);
+    /* Neutral */
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+header {
+    background: url(./images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--very-pale-cyan);
+}
+
+.btn {
+    padding: 0.8em 3em;
+    border-radius: 5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+}
+
+.description-para {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 1.5em;
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2em 0;
+}
+
+header > nav > div.try-it-free {
+    background-color: white;
+    box-shadow: 1px 3px 15px #0000002e;
+    font-size: 0.8rem;
+}
+
+header > nav > .logo > img {
+    width: 10em;
+}
+
+div.landing {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 3em 0;
+    justify-content: center;
+    align-items: center;
+}
+
+div.landing > div.left {
+    width: 45%;
+    padding-right: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div.landing > div.right {
+    width: 55%;
+}
+div.landing > div.right > img {
+    width: 100%;
+}
+
+div.landing-heading {
+    font-size: 2rem;
+}
+
+div.landing-btn {
+    background-color: var(--pink);
+    color: white;
+    display: inline-block;
+    margin-top: 2em;
+}
+
+div.sections {
+    width: 90%;
+    margin: auto;
+    padding: 6em 0;
+}
+
+div.section-item {
+    display: flex;
+    padding: 3em 2em 3em 6em;
+    box-shadow: 1px 2px 10px #0000002e;
+    border-radius: 0.7em;
+    margin-top: 2em;
+    gap: 12em;
+    justify-content: center;
+    align-items: center;
+}
+
+div.illustration-svg {
+    width: 50em;
+}
+div.illustration-svg > img{
+    width: 100%;
+}
+
+div.item-title {
+    font-size: 1.5rem;
+}
+
+div.item-desc {
+    color:var(--grayish-blue);
+}
+
+footer {
+    position: relative;
+}
+
+footer > div.footer-section.action {
+    box-shadow: 1px 2px 10px #0000002e;
+    border-radius: 0.7em;
+    padding: 2.5em 2em;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    bottom: -4em;
+    background-color: white;
+}
+
+footer > div.footer-section.action > .btn{ 
+    background-color: var(--pink);
+    color: white;
+    display: inline-block;
+    margin-top: 2em;
+    padding: 1.5em 6em;
+}
+
+footer > div.footer-section.action > .heading{ 
+    font-size: 1.5rem;
+}
+
+footer > div.footer-section.main {
+    background-color: var(--very-dark-cyan);
+    position: relative;
+    top: 0em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    padding-top: 10em;
+}
+
+div.footer-wrap {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 1.6em 0 4em;
+}
+
+div.footer-logo {
+    width: 90%;
+    margin: auto;
+}
+
+div.footer-logo > img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(157deg) brightness(104%) contrast(104%);
+}
+
+.socials > svg {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(157deg) brightness(104%) contrast(104%);
+    width: 2em;
+    cursor: pointer;
+}
+
+.socials > svg:hover {
+    filter: invert(49%) sepia(21%) saturate(3860%) hue-rotate(294deg) brightness(101%) contrast(101%);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+div.footer-column {
+    width: 25%;
+}
+
+table.address {
+    border-spacing: 1.5em;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
+div.copyright {
+    font-size: 0.65rem;
+}
+
+div.footer-column.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    flex-wrap: wrap;
+    height: 10em;
+    margin-top: 1.2em;
+}
+div.footer-column.menu > span {
+    width: 40%;
+}
+
+div.footer-column.menu > span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div.footer-column.socials-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn:hover {
+    opacity: 0.75;
+}
+
+@media screen and (max-width: 768px) {
+    div.landing {
+        flex-direction: column;
+    }
+
+    div.landing > div.left {
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    div.landing-btn {
+        margin: 2em auto 3em;
+    }
+
+    div.landing > div.right {
+        width: 100%;
+    }
+
+    .illustration-desc {
+        order: 2;
+    }
+    .illustration-svg {
+        order: 1;
+    }
+
+    div.section-item {
+        padding: 4em 2em 2em;
+        flex-direction: column;
+        gap: 3em;
+        text-align: center;
+    }
+
+    div.illustration-svg {
+        width: 100%;
+    }
+
+    footer > div.footer-section.action {
+        width: 90%;
+    }
+
+    div.footer-wrap {
+        flex-direction: column;
+        gap: 3em;
+        margin-top: 1.6em;
+    }
+
+    div.footer-column {
+        width: 100%;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+    div.copyright {
+        text-align: center;
+    }
+
+    table.address {
+        border-spacing: 0;
+    }
+    td {
+        padding-right: 1.2em;
+        padding-bottom: 1.2em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header > nav > .logo > img {
+        width: 8em;
+    }
+    div.landing-heading {
+        font-size: 1.7rem;
+    }
+    div.footer-column.menu {
+        height: auto;
+    }
+    footer > div.footer-section.action > .btn {
+        padding: 1.5em 3em
+    }
+}
