@@ -1,0 +1,55 @@
+@import "../../../shared/variables";
+
+textarea.content-textarea {
+  resize: vertical;
+  max-height: 400px;
+}
+
+div.comment-input-container {
+  display: grid;
+  grid-template: "userAvatar textInput actionButton";
+  grid-template-columns: 3em auto 7em;
+  gap: 1em;
+  background-color: $white;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 1em;
+  img {
+    width: 100%;
+    grid-area: userAvatar;
+  }
+  textarea.content-textarea {
+    grid-area: textInput;
+  }
+  button.comment-action {
+    grid-area: actionButton;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  div.comment-input-container {
+    grid-template:
+      "textInput textInput"
+      "userAvatar actionButton";
+    grid-template-columns: unset;
+    textarea.content-textarea {
+      width: 100%;
+    }
+    img {
+      width: 3em;
+      align-self: center;
+    }
+    button.comment-action {
+      width: 7em;
+      margin-left: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  div.comment-input-container {
+    img {
+      width: 2em;
+    }
+  }
+}

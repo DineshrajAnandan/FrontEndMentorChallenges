@@ -1,0 +1,11 @@
+<div class="comment-input-container">
+  <img [src]="currentUser.image.png" />
+  <textarea
+    class="content-textarea"
+    #contentInput
+    placeholder="Add a comment..."
+  ></textarea>
+  <button class="comment-action" (click)="handleComment()">
+    {{ actionName | uppercase }}
+  </button>
+</div>

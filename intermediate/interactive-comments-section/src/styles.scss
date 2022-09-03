@@ -1,0 +1,39 @@
+@import "./shared/variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $defaultFontFamily;
+  background-color: $very-light-gray;
+  color: $grayish-blue;
+  user-select: none;
+}
+
+textarea.content-textarea {
+  border: 2px solid $light-gray;
+  border-radius: 8px;
+  padding: 1em;
+  height: 8em;
+  font-family: $defaultFontFamily;
+  font-size: 1rem;
+}
+
+button.comment-action {
+  display: block;
+  background-color: $moderate-blue;
+  border-radius: 10px;
+  height: 3em;
+  color: white;
+  font-weight: bold;
+  border: 1px solid $dark-blue;
+  font-size: medium;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+    border-color: $white;
+  }
+}

@@ -1,0 +1,31 @@
+<div class="comments-container">
+  <comment-card
+    class="card-container-outer"
+    *ngFor="let comment of data.comments"
+    [commentData]="comment"
+    (comment)="handleReplyComment($event, comment.id)"
+  >
+    <div class="reply-card-container" *ngIf="comment.replies?.length">
+      <div class="line"></div>
+      <div class="content-container">
+        <comment-card
+          class="card-container-outer"
+          *ngFor="let replyComment of comment.replies"
+          [commentData]="replyComment"
+          [replyTo]="replyComment.replyingTo"
+          (comment)="handleReplyComment($event, comment.id)"
+        ></comment-card>
+      </div>
+    </div>
+  </comment-card>
+  <comment-input
+    action-name="send"
+    (comment)="handleComment($event)"
+  ></comment-input>
+</div>
+
+<div class="dialog-container-outer" *ngIf="showConfirmationDialog">
+  <confirmation-dialog
+    (confirm)="handleDeleteComment($event)"
+  ></confirmation-dialog>
+</div>

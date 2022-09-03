@@ -1,0 +1,75 @@
+<div class="card-container">
+  <div class="score-container-outer">
+    <div class="score-container">
+      <img
+        src="../../../assets/images/icon-plus.svg"
+        alt="icon-plus"
+        (click)="data.score = data.score + 1"
+      />
+      <span>{{ data.score }}</span>
+      <img
+        src="../../../assets/images/icon-minus.svg"
+        alt="icon-minus"
+        (click)="data.score = data.score - 1"
+      />
+    </div>
+  </div>
+  <div class="comment-container">
+    <div class="comment-actions">
+      <div
+        *ngIf="!isCurrentUserComment"
+        (click)="showReplyBox = true"
+        class="action-button reply"
+      >
+        <img src="../../../assets/images/icon-reply.svg" alt="icon-reply" />
+        <span>Reply</span>
+      </div>
+      <div
+        *ngIf="isCurrentUserComment"
+        class="action-button delete"
+        (click)="handleDeleteComment()"
+      >
+        <img src="../../../assets/images/icon-delete.svg" alt="icon-delete" />
+        <span>Delete</span>
+      </div>
+      <div
+        *ngIf="isCurrentUserComment"
+        class="action-button edit"
+        (click)="isEditMode = true"
+      >
+        <img src="../../../assets/images/icon-edit.svg" alt="icon-edit" />
+        <span>Edit</span>
+      </div>
+    </div>
+    <div class="comment-header">
+      <img class="user-avatar" [src]="data.user.image.png" />
+      <span class="user-name">{{ data.user.username }}</span>
+      <span *ngIf="isCurrentUserComment" class="you">you</span>
+      <span>{{ data.createdAt }}</span>
+    </div>
+    <div class="comment-text" *ngIf="!isEditMode; else contentEdit">
+      <span class="replyTo" *ngIf="replyTo">@{{ replyTo }}</span>
+      {{ data.content }}
+    </div>
+    <button
+      class="comment-action"
+      *ngIf="isEditMode"
+      (click)="isEditMode = false"
+    >
+      Update
+    </button>
+  </div>
+</div>
+
+<ng-content></ng-content>
+
+<comment-input
+  *ngIf="showReplyBox"
+  action-name="reply"
+  (comment)="handleComment($event)"
+>
+</comment-input>
+
+<ng-template #contentEdit>
+  <textarea class="content-textarea" [(ngModel)]="data.content"></textarea>
+</ng-template>
