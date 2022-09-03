@@ -51,6 +51,10 @@ body {
   background-color: hsl(45, 97%, 48%);
 }
 
+.item-level.advanced {
+  background-color: hsl(27, 97%, 48%);
+}
+
 .portfolio-container {
   display: flex;
   width: 100%;
