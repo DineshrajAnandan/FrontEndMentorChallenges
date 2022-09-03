@@ -2,13 +2,13 @@
   <div class="score-container-outer">
     <div class="score-container">
       <img
-        src="../../../assets/images/icon-plus.svg"
+        src="assets/images/icon-plus.svg"
         alt="icon-plus"
         (click)="data.score = data.score + 1"
       />
       <span>{{ data.score }}</span>
       <img
-        src="../../../assets/images/icon-minus.svg"
+        src="assets/images/icon-minus.svg"
         alt="icon-minus"
         (click)="data.score = data.score - 1"
       />
@@ -21,7 +21,7 @@
         (click)="showReplyBox = true"
         class="action-button reply"
       >
-        <img src="../../../assets/images/icon-reply.svg" alt="icon-reply" />
+        <img src="assets/images/icon-reply.svg" alt="icon-reply" />
         <span>Reply</span>
       </div>
       <div
@@ -29,7 +29,7 @@
         class="action-button delete"
         (click)="handleDeleteComment()"
       >
-        <img src="../../../assets/images/icon-delete.svg" alt="icon-delete" />
+        <img src="assets/images/icon-delete.svg" alt="icon-delete" />
         <span>Delete</span>
       </div>
       <div
@@ -37,7 +37,7 @@
         class="action-button edit"
         (click)="isEditMode = true"
       >
-        <img src="../../../assets/images/icon-edit.svg" alt="icon-edit" />
+        <img src="assets/images/icon-edit.svg" alt="icon-edit" />
         <span>Edit</span>
       </div>
     </div>
