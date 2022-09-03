@@ -15,6 +15,9 @@ function registerEvents() {
   document
     .querySelector(".filter-item.junior")
     .addEventListener("click", filterLevel2Items);
+  document
+    .querySelector(".filter-item.intermediate")
+    .addEventListener("click", filterLevel3Items);
 }
 
 function filterAllItems(el) {
@@ -37,6 +40,14 @@ function filterLevel2Items(el) {
   clearAllFilters();
   el.currentTarget.classList.add("filter-selected");
   document.querySelectorAll(".portfolio-item.junior").forEach((el) => {
+    el.style.display = "block";
+  });
+}
+
+function filterLevel3Items(el) {
+  clearAllFilters();
+  el.currentTarget.classList.add("filter-selected");
+  document.querySelectorAll(".portfolio-item.intermediate").forEach((el) => {
     el.style.display = "block";
   });
 }

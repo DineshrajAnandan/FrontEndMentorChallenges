@@ -208,5 +208,12 @@ data = [
     "frontEndMentorLink": "https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw",
     "siteLink": "./junior/time-tracking-dashboard/index.html",
     "codeLink": "https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/time-tracking-dashboard"
+  },
+  {
+    "title": "Interactive comments section",
+    "level": "intermediate",
+    "frontEndMentorLink": "https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9",
+    "siteLink": "./intermediate/interactive-comments-section/dist/index.html",
+    "codeLink": "https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/intermediate/interactive-comments-section"
   }
 ]
