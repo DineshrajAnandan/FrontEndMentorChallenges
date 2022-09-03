@@ -42,7 +42,7 @@
       </div>
     </div>
     <div class="comment-header">
-      <img class="user-avatar" [src]="data.user.image.png" />
+      <img class="user-avatar" [src]="data.user.image.png" alt="user-avatar"/>
       <span class="user-name">{{ data.user.username }}</span>
       <span *ngIf="isCurrentUserComment" class="you">you</span>
       <span>{{ data.createdAt }}</span>
