@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/time-tracking-dashboard](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/time-tracking-dashboard)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/time-tracking-dashboard/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/time-tracking-dashboard/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/time-tracking-dashboard](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/time-tracking-dashboard)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/time-tracking-dashboard/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/time-tracking-dashboard/index.html)
 
 ## My process
 

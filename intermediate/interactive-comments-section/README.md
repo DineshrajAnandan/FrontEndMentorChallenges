@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/interactive-comments-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/interactive-comments-section)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/interactive-comments-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/interactive-comments-section/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/intermediate/interactive-comments-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/intermediate/interactive-comments-section)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/intermediate/interactive-comments-section/dist/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/intermediate/interactive-comments-section/dist/index.html)
 
 ## My process
 

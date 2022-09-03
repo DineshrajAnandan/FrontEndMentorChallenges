@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/ping-coming-soon-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/ping-coming-soon-page)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/ping-coming-soon-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/ping-coming-soon-page/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/ping-coming-soon-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/ping-coming-soon-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/ping-coming-soon-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/ping-coming-soon-page/index.html)
 
 ## My process
 

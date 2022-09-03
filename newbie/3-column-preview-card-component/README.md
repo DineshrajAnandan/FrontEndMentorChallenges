@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/3-column-preview-card-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/3-column-preview-card-component)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/3-column-preview-card-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/3-column-preview-card-component/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/3-column-preview-card-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/3-column-preview-card-component)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/3-column-preview-card-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/3-column-preview-card-component/index.html)
 
 ## My process
 

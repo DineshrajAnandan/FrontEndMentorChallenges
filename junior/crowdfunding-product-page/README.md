@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/crowdfunding-product-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/crowdfunding-product-page)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/crowdfunding-product-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/crowdfunding-product-page/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/crowdfunding-product-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/crowdfunding-product-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/crowdfunding-product-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/crowdfunding-product-page/index.html)
 
 ## My process
 

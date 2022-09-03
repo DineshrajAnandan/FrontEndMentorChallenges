@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/article-preview-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/article-preview-component)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/article-preview-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/article-preview-component/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/article-preview-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/article-preview-component)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/article-preview-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/article-preview-component/index.html)
 
 ## My process
 

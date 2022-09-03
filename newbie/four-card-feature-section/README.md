@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/four-card-feature-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/four-card-feature-section)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/four-card-feature-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/four-card-feature-section/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/four-card-feature-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/four-card-feature-section)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/four-card-feature-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/four-card-feature-section/index.html)
 
 ## My process
 

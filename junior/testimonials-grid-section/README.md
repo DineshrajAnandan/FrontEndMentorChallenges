@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/testimonials-grid-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/testimonials-grid-section)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/testimonials-grid-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/testimonials-grid-section/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/testimonials-grid-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/testimonials-grid-section)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/testimonials-grid-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/testimonials-grid-section/index.html)
 
 ## My process
 

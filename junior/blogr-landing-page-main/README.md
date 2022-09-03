@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/blogr-landing-page-main](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/blogr-landing-page-main)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/blogr-landing-page-main/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/blogr-landing-page-main/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/blogr-landing-page-main](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/blogr-landing-page-main)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/blogr-landing-page-main/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/blogr-landing-page-main/index.html)
 
 ## My process
 

@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/base-apparel-coming-soon](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/base-apparel-coming-soon)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/base-apparel-coming-soon/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/base-apparel-coming-soon/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/base-apparel-coming-soon](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/base-apparel-coming-soon)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/base-apparel-coming-soon/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/base-apparel-coming-soon/index.html)
 
 ## My process
 

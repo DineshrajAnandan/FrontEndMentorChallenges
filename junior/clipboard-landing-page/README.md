@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/clipboard-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/clipboard-landing-page)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/clipboard-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/clipboard-landing-page/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/clipboard-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/clipboard-landing-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/clipboard-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/clipboard-landing-page/index.html)
 
 ## My process
 

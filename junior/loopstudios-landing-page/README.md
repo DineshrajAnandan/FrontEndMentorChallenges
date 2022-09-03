@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/loopstudios-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/loopstudios-landing-page)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/loopstudios-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/loopstudios-landing-page/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/loopstudios-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/loopstudios-landing-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/loopstudios-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/loopstudios-landing-page/index.html)
 
 ## My process
 

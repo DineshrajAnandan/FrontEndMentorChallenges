@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/coding-bootcamp-testimonials-slider](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/coding-bootcamp-testimonials-slider)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/coding-bootcamp-testimonials-slider/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/coding-bootcamp-testimonials-slider/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/coding-bootcamp-testimonials-slider](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/coding-bootcamp-testimonials-slider)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/coding-bootcamp-testimonials-slider/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/coding-bootcamp-testimonials-slider/index.html)
 
 ## My process
 

@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/huddle-landing-page-with-alternating-feature-blocks](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/huddle-landing-page-with-alternating-feature-blocks)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/huddle-landing-page-with-alternating-feature-blocks/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/huddle-landing-page-with-alternating-feature-blocks/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/huddle-landing-page-with-alternating-feature-blocks](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/huddle-landing-page-with-alternating-feature-blocks)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/huddle-landing-page-with-alternating-feature-blocks/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/huddle-landing-page-with-alternating-feature-blocks/index.html)
 
 ## My process
 

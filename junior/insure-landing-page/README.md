@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/insure-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/insure-landing-page)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/insure-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/insure-landing-page/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/insure-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/insure-landing-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/insure-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/insure-landing-page/index.html)
 
 ## My process
 

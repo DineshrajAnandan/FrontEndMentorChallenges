@@ -30,8 +30,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/profile-card-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/profile-card-component)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/profile-card-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/profile-card-component/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/profile-card-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/profile-card-component)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/profile-card-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/profile-card-component/index.html)
 
 ## My process
 

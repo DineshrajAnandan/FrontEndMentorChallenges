@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/faq-accordion-card](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/faq-accordion-card)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/faq-accordion-card/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/faq-accordion-card/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/faq-accordion-card](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/faq-accordion-card)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/faq-accordion-card/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/faq-accordion-card/index.html)
 
 ## My process
 

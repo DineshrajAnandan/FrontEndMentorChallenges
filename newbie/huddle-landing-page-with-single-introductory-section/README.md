@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/huddle-landing-page-with-single-introductory-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/huddle-landing-page-with-single-introductory-section)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/huddle-landing-page-with-single-introductory-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/huddle-landing-page-with-single-introductory-section/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/huddle-landing-page-with-single-introductory-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/huddle-landing-page-with-single-introductory-section)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/huddle-landing-page-with-single-introductory-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/huddle-landing-page-with-single-introductory-section/index.html)
 
 ## My process
 

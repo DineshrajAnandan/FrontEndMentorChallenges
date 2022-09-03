@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/project-tracking-intro-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/project-tracking-intro-component)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/project-tracking-intro-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/project-tracking-intro-component/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/project-tracking-intro-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/project-tracking-intro-component)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/project-tracking-intro-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/project-tracking-intro-component/index.html)
 
 ## My process
 

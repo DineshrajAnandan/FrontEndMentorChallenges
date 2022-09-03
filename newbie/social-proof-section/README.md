@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/social-proof-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/social-proof-section)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/social-proof-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/social-proof-section/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/social-proof-section](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/social-proof-section)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/social-proof-section/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/social-proof-section/index.html)
 
 ## My process
 

@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/pricing-component-with-toggle](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/pricing-component-with-toggle)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/pricing-component-with-toggle/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/pricing-component-with-toggle/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/pricing-component-with-toggle](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/pricing-component-with-toggle)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/pricing-component-with-toggle/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/pricing-component-with-toggle/index.html)
 
 ## My process
 

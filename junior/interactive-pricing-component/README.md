@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/interactive-pricing-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/interactive-pricing-component)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/interactive-pricing-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/interactive-pricing-component/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/interactive-pricing-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/interactive-pricing-component)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/interactive-pricing-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/interactive-pricing-component/index.html)
 
 ## My process
 

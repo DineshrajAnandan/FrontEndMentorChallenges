@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/single-price-grid-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/single-price-grid-component)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/single-price-grid-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/single-price-grid-component/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/single-price-grid-component](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/newbie/single-price-grid-component)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/single-price-grid-component/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/newbie/single-price-grid-component/index.html)
 
 ## My process
 

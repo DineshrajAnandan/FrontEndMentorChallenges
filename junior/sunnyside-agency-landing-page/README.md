@@ -1,4 +1,4 @@
-# Frontend Mentor - Sunnyside agency landing page solution
+junior/# Frontend Mentor - Sunnyside agency landing page solution
 
 This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/sunnyside-agency-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/sunnyside-agency-landing-page)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/sunnyside-agency-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/sunnyside-agency-landing-page/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/sunnyside-agency-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/sunnyside-agency-landing-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/sunnyside-agency-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/sunnyside-agency-landing-page/index.html)
 
 ## My process
 

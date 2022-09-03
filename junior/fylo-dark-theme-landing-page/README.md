@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/fylo-dark-theme-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/fylo-dark-theme-landing-page)
-- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/fylo-dark-theme-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/fylo-dark-theme-landing-page/index.html)
+- Solution URL: [https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/fylo-dark-theme-landing-page](https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/junior/fylo-dark-theme-landing-page)
+- Live Site URL: [https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/fylo-dark-theme-landing-page/index.html](https://dineshrajanandan.github.io/FrontEndMentorChallenges/junior/fylo-dark-theme-landing-page/index.html)
 
 ## My process
 
