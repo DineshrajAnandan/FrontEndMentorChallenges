@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="title">calc</div>
+        <div class="theme-selector-outer">
+          <span>THEME</span>
+          <div class="theme-selector">
+            <div class="theme-btn" onclick="applyTheme('theme1')">
+              <span>1</span>
+              <div class="theme-btn-inner theme1"></div>
+            </div>
+            <div class="theme-btn" onclick="applyTheme('theme2')">
+              <span>2</span>
+              <div class="theme-btn-inner theme2"></div>
+            </div>
+            <div class="theme-btn" onclick="applyTheme('theme3')">
+              <span>3</span>
+              <div class="theme-btn-inner theme3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="display-screen">
+        <span></span>
+      </div>
+      <div class="input-panel">
+        <div class="btn" onclick="handleInput('7')"><span>7</span></div>
+        <div class="btn" onclick="handleInput('8')"><span>8</span></div>
+        <div class="btn" onclick="handleInput('9')"><span>9</span></div>
+        <div class="btn btn-color-2 txt-color-2" onclick="handleInput('DEL')">
+          <span>DEL</span>
+        </div>
+        <div class="btn" onclick="handleInput('4')"><span>4</span></div>
+        <div class="btn" onclick="handleInput('5')"><span>5</span></div>
+        <div class="btn" onclick="handleInput('6')"><span>6</span></div>
+        <div class="btn" onclick="handleInput('+')"><span>+</span></div>
+        <div class="btn" onclick="handleInput('1')"><span>1</span></div>
+        <div class="btn" onclick="handleInput('2')"><span>2</span></div>
+        <div class="btn" onclick="handleInput('3')"><span>3</span></div>
+        <div class="btn" onclick="handleInput('-')"><span>-</span></div>
+        <div class="btn" onclick="handleInput('.')"><span>.</span></div>
+        <div class="btn" onclick="handleInput('0')"><span>0</span></div>
+        <div class="btn" onclick="handleInput('/')"><span>/</span></div>
+        <div class="btn" onclick="handleInput('*')"><span>x</span></div>
+        <div
+          class="btn btn-2 btn-color-2 txt-color-2"
+          onclick="handleInput('RESET')"
+        >
+          <span>RESET</span>
+        </div>
+        <div
+          class="btn btn-2 btn-color-3 txt-color-3"
+          onclick="handleInput('=')"
+        >
+          <span>=</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
