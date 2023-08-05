@@ -1,8 +1,6 @@
 let screenValue = '0';
 let previousValue = 0;
 let currentAction = '+'; // +, - , /, *
-// let dotAdded = false;
-// let zerosAfterDot = 0;
 let operandAppliedBefore = false;
 let equalAppliedBefore = false;
 
@@ -15,7 +13,7 @@ const numberFormat = Intl.NumberFormat('en-US', {
 document.onreadystatechange = () => {
   if (document.readyState == 'complete') {
     registerKeyEvents();
-    applyTheme('theme1');
+    detectTheme();
     setScreenValue(screenValue);
   }
 };
@@ -57,17 +55,6 @@ function handleInput(input) {
   }
 }
 
-// function performDelete() {
-//   if (operandAppliedBefore) {
-//     screenValue = '0';
-//     setScreenValue('0');
-//     return;
-//   }
-//   let currScreenValue = screenValue.toString();
-//   let newValue = currScreenValue.slice(0, -1);
-//   screenValue = +newValue;
-//   setScreenValue(newValue);
-// }
 function performDelete() {
   if (operandAppliedBefore) {
     screenValue = '0';
@@ -78,20 +65,6 @@ function performDelete() {
   setScreenValue(screenValue.slice(0, -1));
 }
 
-// function applyOperand(operator) {
-//   if (operandAppliedBefore) {
-//     currentAction = operator;
-//     return;
-//   }
-//   let newValue = calculate(previousValue, screenValue, currentAction);
-//   previousValue = newValue;
-//   screenValue = newValue;
-//   setScreenValue(screenValue);
-//   if (operator !== '=') {
-//     currentAction = operator;
-//     operandAppliedBefore = true;
-//   }
-// }
 function applyOperand(operator) {
   if (operandAppliedBefore) {
     currentAction = operator;
@@ -114,13 +87,8 @@ function applyOperand(operator) {
     currentAction = '+';
     operandAppliedBefore = false;
     previousValue = screenValue;
-    // screenValue = '0';
   }
 }
-
-// function applyEqual() {
-
-// }
 
 function calculate(x, y, operator) {
   switch (operator) {
@@ -150,17 +118,6 @@ function addDotToDisplay() {
   setScreenValue(`${screenValue}.`);
 }
 
-// function addNumberToDisplay(num) {
-//   if (dotAdded && Number.isInteger(screenValue) && num == 0) {
-//     zerosAfterDot++;
-
-//     //`${formatNumber(value)}.${genZeroString(zeroAfterDot)}`
-//   }
-
-//   let newScreenValue = screenValue * 10 + num;
-//   setScreenValue(newScreenValue);
-// }
-
 function genZeroString(count) {
   let result = '';
   for (let i = 0; i < count; i++) result += '0';
@@ -171,13 +128,26 @@ function resetScreen() {
   screenValue = '0';
   previousValue = 0;
   currentAction = '+';
-  // dotAdded = false;
-  // zerosAfterDot = 0;
   operandAppliedBefore = false;
   setScreenValue('0');
 }
 
 //#region THEME
+
+function detectTheme() {
+  let theme = 'theme1';
+  let themes = ['theme1', 'theme2', 'theme3'];
+  let preferredTheme = localStorage.getItem('theme');
+  if (preferredTheme && themes.includes(preferredTheme)) {
+    theme = preferredTheme;
+  } else if (
+    window.matchMedia &&
+    window.matchMedia('(prefers-color-scheme: dark)').matches
+  ) {
+    theme = 'theme3';
+  }
+  applyTheme(theme);
+}
 
 function removeAllThemes(containerElem) {
   containerElem.classList.remove('theme1');
@@ -189,6 +159,7 @@ function removeAllThemes(containerElem) {
 }
 
 function applyTheme(themeName) {
+  localStorage.setItem('theme', themeName);
   const container = document.querySelector('body');
   removeAllThemes(container);
   document.querySelector(`div.theme-btn-inner.${themeName}`).style.display =
@@ -205,13 +176,6 @@ function formatNumber(value) {
   return numberFormat.format(value);
 }
 
-// function setScreenValue(value) {
-//   const elem = document.querySelector('div.display-screen > span');
-//   if (dotAdded && Number.isInteger(+screenValue))
-//     elem.innerText = `${formatNumber(value)}.${genZeroString(zerosAfterDot)}`;
-//   else elem.innerText = formatNumber(+value);
-//   screenValue = value;
-// }
 function setScreenValue(value) {
   const elem = document.querySelector('div.display-screen > span');
   elem.innerText = formatNumber(+value);
