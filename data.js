@@ -215,5 +215,12 @@ data = [
     "frontEndMentorLink": "https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9",
     "siteLink": "./intermediate/interactive-comments-section/dist/index.html",
     "codeLink": "https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/intermediate/interactive-comments-section"
+  },
+  {
+    "title": "Calculator app",
+    "level": "intermediate",
+    "frontEndMentorLink": "https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29",
+    "siteLink": "./intermediate/calculator-app/index.html",
+    "codeLink": "https://github.com/DineshrajAnandan/FrontEndMentorChallenges/tree/main/intermediate/calculator-app"
   }
 ]
